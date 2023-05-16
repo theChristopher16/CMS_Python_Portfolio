@@ -1,3 +1,7 @@
+# MSNT 657: Storing Values in Lists
+## Student Name: Christopher Smith
+## Professor: Dr. Vandenbrink
+
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
 
