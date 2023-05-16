@@ -2,6 +2,7 @@
 ## Student Name: Christopher Smith
 ## Professor: Dr. Vandenbrink
 
+```
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
 
@@ -69,3 +70,4 @@ sond = months[8:len(months)]
 print('Using len() to get last position:', sond)
 sond = months[8:]
 print('Omitting last position:', sond)
+```
