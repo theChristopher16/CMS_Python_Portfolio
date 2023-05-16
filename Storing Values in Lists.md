@@ -2,7 +2,7 @@
 ## Student Name: Christopher Smith
 ## Professor: Dr. Vandenbrink
 
-```
+```python
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
 
@@ -16,8 +16,8 @@ print('names is originally:', names)
 names[1] = 'Darwin'
 print('final value of names:', names)
 
-<!-- name = 'Darwin'
-name[0] = 'd' -->
+# name = 'Darwin'
+# name[0] = 'd' 
 
 odds.append(11)
 print('odds after adding a value:', odds)
@@ -48,7 +48,7 @@ print('group:', group)
 species = binomial_name[11:23]
 print('species:', species)
 
-<!-- chromosomes = ['X', 'Y', 'Z', '2', '3', '4'] -->
+# chromosomes = ['X', 'Y', 'Z', '2', '3', '4'] 
 autosomes = chromosomes[2:5]
 print('autosomes:', autosomes)
 
