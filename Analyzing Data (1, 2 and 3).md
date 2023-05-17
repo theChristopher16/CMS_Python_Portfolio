@@ -2,7 +2,8 @@
 ## Student Name: Christopher Smith
 ## Professor: Dr. Vandenbrink
 
-1. 
+# 1. 
+```python
 import numpy
 numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
@@ -21,8 +22,9 @@ print(data[5:10, 0:10])
 small = data[:3, 36:]
 print('small is:')
 print(small)
-
-2. 
+```
+# 2.
+```python
 # Lets use a numpy function
 print(numpy.mean(data))
 
@@ -38,8 +40,10 @@ print(stdval)
 
 print('maximum inflammation:', maxval)
 print('minimum inflammation:', minval)
+```
 
-3.
+# 3.
+```python
 import numpy
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
@@ -76,3 +80,4 @@ fig.tight_layout()
 
 matplotlib.pyplot.savefig('inflammation.png')
 matplotlib.pyplot.show()
+```

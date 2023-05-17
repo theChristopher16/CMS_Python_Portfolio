@@ -2,6 +2,8 @@
 ## Student Name: Christopher Smith
 ## Professor: Dr. Vandenbrink
 
+
+```python
 # Any python interpreter can be used as a calculator:
 3 + 5 * 4
 
@@ -44,3 +46,4 @@ print('weight in lbs:', 2.2 * weight_kg)
 
 weight_kg = 65.0
 print('weight in kilograms is now:', weight_kg)
+```

@@ -1,9 +1,10 @@
-# MSNT 657: Using Jupyter Notebooks
+# MSNT 657: Using Jupyter Notebooks 1 & 2
 ## Student Name: Christopher Smith
 ## Professor: Dr. Vandenbrink
 
-    1.
 
+# 1.
+```python
     %matplotlib inline
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -26,11 +27,10 @@
     set(df.profit[non_numeric_profits])
     len(df.profit[non_numeric_profits])
     bin_sizes, _, _ = plt.hist(df.year[num_profits], bins=range(1955, 2006))
+```
 
-<!-- Next Section -->
-<!-- -->
-<!-- -->
-    2.
+# 2.
+```python
 df = df.loc[~non_numeric_profits]
 df.profit = df.profit.apply(pd.to_numeric)
 
@@ -66,3 +66,4 @@ plot_with_std(X, y1.values, stds1, ax1, title % 'profits', 'Profit (millions)')
 plot_with_std(X, y2.values, stds2, ax2, title % 'revenues', 'Revenue (millions)')
 fig.set_size_inches(14, 4)
 fig.tight_layout()
+```
