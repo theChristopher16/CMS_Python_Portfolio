@@ -62,3 +62,5 @@ elif numpy.sum(numpy.min(data, axis=0)) == 0:
     print('Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!')
 else:
     print('Seems OK!')
+
+```

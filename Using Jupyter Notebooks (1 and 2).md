@@ -66,4 +66,5 @@ plot_with_std(X, y1.values, stds1, ax1, title % 'profits', 'Profit (millions)')
 plot_with_std(X, y2.values, stds2, ax2, title % 'revenues', 'Revenue (millions)')
 fig.set_size_inches(14, 4)
 fig.tight_layout()
+
 ```

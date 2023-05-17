@@ -35,4 +35,5 @@ print(len([0, 1, 2, 3]))
 
 names = ['Curie', 'Darwin', 'Turing']
 print(len(name))
+
 ```

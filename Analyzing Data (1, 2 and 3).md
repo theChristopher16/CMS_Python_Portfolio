@@ -80,4 +80,5 @@ fig.tight_layout()
 
 matplotlib.pyplot.savefig('inflammation.png')
 matplotlib.pyplot.show()
+
 ```

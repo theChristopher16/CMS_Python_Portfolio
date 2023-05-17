@@ -70,4 +70,5 @@ sond = months[8:len(months)]
 print('Using len() to get last position:', sond)
 sond = months[8:]
 print('Omitting last position:', sond)
+
 ```

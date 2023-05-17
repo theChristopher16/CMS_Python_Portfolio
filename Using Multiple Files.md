@@ -35,4 +35,5 @@ for filename in filenames:
 
     fig.tight_layout()
     matplotlib.pyplot.show()
+    
 ```
